@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: linear-gradient(to bottom, #fa71cd, #c471f5);
+    background-attachment: fixed;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+button {
+    padding:0.5rem;
+    height: 2rem;
+    font-size: 14px;
+    border:none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #1C86EE , #63B8FF);
+    font-weight: bolder;
+}
+#mainTable {
+    color: #808080;
+    border-collapse: collapse;
+}
+#mainTable tr {
+    line-height: 55px;
+    text-align: left;
+    border: 1px solid #f2f2f2;
+}
+#mainTable td,
+#mainTable th {
+    padding:0.3rem;
+    text-align: center;
+}
+#mainTable a {color:#1C86EE; text-decoration: none;}
+#mainTable a:visited {color:#1C86EE;}
+#mainTable a:hover {color:#63B8FF;}
+#mainTable a:active {color:#63B8FF;}
+#mainTable thead {
+    color: black;
+}
+#mainTable tbody tr td,
+#mainTable thead tr th {
+    background-color: white;
+}
+.modal {
+    background-color: white;
+    padding: 1rem;
+}
+.modal .modal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal .modal-info label{
+    font-weight: bold;
+    text-align: justify;
+}
+.modal footer {
+    display:flex;
+    justify-content: flex-end;
+}
+.modal .close-button {
+
+    border: none;
+    background-color: #1C86EE;
+    font-size: 18px;
+}
+
+.modal .close-button:hover {
+    background-color: #63B8FF;
+}
+.modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+.modal form div {
+    margin-bottom: 0.5rem;
+}
+.modal form footer {
+    margin: 0.5rem !important;
+    display: flex;
+    justify-content: flex-end;
+}
+#openCreateModal {
+    margin: 1rem;
+}
